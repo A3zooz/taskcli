@@ -6,6 +6,8 @@ TaskCLI is a command-line interface tool for managing tasks and to-do lists. It 
 
 - Create new tasks with a title, description
 - Set task priorities to easily prioritize your work
+- Complete Tasks
+- Update Tasks
 - View all tasks
 - Delete tasks that are no longer needed
 
@@ -13,7 +15,7 @@ TaskCLI is a command-line interface tool for managing tasks and to-do lists. It 
 
 To install TaskCLI, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/your-username/taskcli.git`
+1. Clone the repository: `git clone https://github.com/A3zooz/taskcli.git`
 2. Navigate to the project directory: `cd taskcli`
 3. Install the dependencies: `npm install`
 4. Start the application: `taskcli`
@@ -25,6 +27,8 @@ TaskCLI provides a set of commands to interact with tasks. Here are some example
 - To create a new task: `taskcli add`
 - To view all tasks: `taskcli view`
 - To delete a task: `taskcli delete`
+- To mark a task as complete: `taskcli complete`
+- To update a task: `taskcli update`
 
 For more information on available commands and options, run `taskcli --help`.
 
