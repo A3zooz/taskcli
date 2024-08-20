@@ -23,7 +23,9 @@ export async function viewTask(){
                     chalk.magentaBright('Task Code: ' + element.code + '\n' +
                     chalk.greenBright('Name: ' + element.name + '\n' + 
                     chalk.greenBright('Description: ' + element.description + '\n' +
-                    chalk.redBright('Priority: ' + element.priority + '\n')
+                    chalk.redBright('Priority: ' + element.priority + '\n' + 
+                    chalk.blueBright('Completed: ' + element.completed + '\n')
+                    )
                     )
                     )
                     )
